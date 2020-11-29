@@ -1,0 +1,13 @@
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    display: flex;
+    height: 1024px;
+    width: 100%;
+    background-image: url('../../assets/globalmap.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+}
