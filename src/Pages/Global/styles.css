@@ -1,13 +1,25 @@
 .Container {
     display: flex;
-    justify-content: center;
 }
 
-.bg {
+.report {
     display: flex;
-    height: 750px;
+    height: 730px;
     width: 100%;
     background-image: url('../../assets/globalmap.png');
     background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cards {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 173px;
+    height: 160px;
+    background-color: darkgray;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }

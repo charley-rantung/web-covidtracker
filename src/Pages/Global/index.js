@@ -24,15 +24,21 @@ const Global = () => {
 
     return (
         <div>
-            <div className='bg'>
-                <div className='report'>
-                    
+            <div className='report'>
+                <div className='cards'>
+                    <p>Confirmed</p>
+                    <p><NumberFormat value={confirmed} displayType={'text'} thousandSeparator={true}/></p>
+                </div>
+                <div className='cards'>
+                    <p>Recovered</p>
+                    <p><NumberFormat value={recovered} displayType={'text'} thousandSeparator={true}/></p>
+                </div>
+                <div className='cards'>
+                    <p>Deaths</p>
+                    <p><NumberFormat value={deaths} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
             </div>
             <p>GLOBAL</p>
-            <p><NumberFormat value={confirmed} displayType={'text'} thousandSeparator={true}/></p>
-            <p><NumberFormat value={recovered} displayType={'text'} thousandSeparator={true}/></p>
-            <p><NumberFormat value={deaths} displayType={'text'} thousandSeparator={true}/></p>
         </div>
     )
 }
