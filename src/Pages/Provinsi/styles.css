@@ -1,0 +1,18 @@
+.cardProvinsi {
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.cardChild {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardChild p {
+    text-align: center;
+}

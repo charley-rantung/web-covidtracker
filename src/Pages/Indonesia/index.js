@@ -21,7 +21,7 @@ const Indonesia = () => {
     }, [])
     return (
         <div>
-            <div className='report'>
+            <div className='reportIndo'>
                 <div className='cards'>
                     <p>Confirmed</p>
                     <p><NumberFormat value={confirmed} displayType={'text'} thousandSeparator={true}/></p>
