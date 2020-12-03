@@ -18,8 +18,9 @@
     margin-top: 30px;
     width: 173px;
     height: 160px;
-    background-color: darkgray;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 30px;
+    border: 1px solid black;
 }

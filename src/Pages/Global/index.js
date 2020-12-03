@@ -25,15 +25,15 @@ const Global = () => {
     return (
         <div>
             <div className='report'>
-                <div className='cards'>
+                <div className='cards' style={{backgroundColor: '#f9d000'}}>
                     <p>Confirmed</p>
                     <p><NumberFormat value={confirmed} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
-                <div className='cards'>
+                <div className='cards' style={{backgroundColor: '#00f48e'}}>
                     <p>Recovered</p>
                     <p><NumberFormat value={recovered} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
-                <div className='cards'>
+                <div className='cards' style={{backgroundColor: '#ff5b42'}}>
                     <p>Deaths</p>
                     <p><NumberFormat value={deaths} displayType={'text'} thousandSeparator={true}/></p>
                 </div>

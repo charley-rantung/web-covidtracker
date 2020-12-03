@@ -15,17 +15,22 @@ const Provinsi = () => {
 
     }, [])
     return (
-        <div>
-            <p>PROVINSI</p>
+        <div className="container">
             {
                 data.map((items) => {
                     return(
                         <div className="cardProvinsi">
-                            <p>&emsp;&nbsp;{items.provinsi}</p>
-                            <div className="cardChild">
-                                <p>Confirmed:<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>
-                                <p>Recovered:<br /><NumberFormat value={items.kasusSemb} displayType={'text'} thousandSeparator={true}/></p>
-                                <p>Deaths:<br /><NumberFormat value={items.kasusMeni} displayType={'text'} thousandSeparator={true}/></p>
+                            <p style={{fontSize: 20, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
+                            <div className="cardContainer">
+                                <div className="cardChild" style={{backgroundColor: '#f9d000'}}>
+                                    <p>Confirmed<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>
+                                </div>
+                                <div className="cardChild" style={{backgroundColor: '#00f48e'}}>
+                                    <p>Recovered<br /><NumberFormat value={items.kasusSemb} displayType={'text'} thousandSeparator={true}/></p>
+                                </div>
+                                <div className="cardChild" style={{backgroundColor: '#ff5b42'}}>
+                                    <p>Deaths<br /><NumberFormat value={items.kasusMeni} displayType={'text'} thousandSeparator={true}/></p>
+                                </div>
                             </div>
                         </div>
                 )
