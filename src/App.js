@@ -11,10 +11,10 @@ const App = () => {
       <div className="ContainerApp">
         <nav>
           <ul>
-            <li><NavLink to="/" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}}> Home </NavLink></li>
-            <li><NavLink to="/global" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Global </NavLink></li>
-            <li><NavLink to="/indonesia" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Indonesia </NavLink></li>
-            <li><NavLink to="/provinsi" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Provinsi </NavLink></li>
+            <li><NavLink to="/covid-tracker-web/" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}}> Home </NavLink></li>
+            <li><NavLink to="/covid-tracker-web/global" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Global </NavLink></li>
+            <li><NavLink to="/covid-tracker-web/indonesia" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Indonesia </NavLink></li>
+            <li><NavLink to="/covid-tracker-web/provinsi" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#5e0007"}}> Provinsi </NavLink></li>
           </ul>
         </nav>
         <Switch>
