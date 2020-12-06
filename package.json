@@ -2,7 +2,7 @@
   "name": "covid-tracker-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://charley-rantung.github.io/covid-tracker-web",
+  "homepage": "https://charley-rantung.github.io/covid-tracker-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
