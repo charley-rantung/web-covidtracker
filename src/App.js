@@ -18,10 +18,10 @@ const App = () => {
           </ul>
         </nav>
         <Switch>
-          <Route path = "/global"> <Global /> </Route>
-          <Route path = "/indonesia"> <Indonesia /> </Route>
-          <Route path = "/provinsi"> <Provinsi /> </Route>
-          <Route path = "/"> <Home /> </Route>
+          <Route path = "/covid-tracker-web/global"> <Global /> </Route>
+          <Route path = "/covid-tracker-web/indonesia"> <Indonesia /> </Route>
+          <Route path = "/covid-tracker-web/provinsi"> <Provinsi /> </Route>
+          <Route path = "/covid-tracker-web/"> <Home /> </Route>
         </Switch>
       </div>
     </Router>
