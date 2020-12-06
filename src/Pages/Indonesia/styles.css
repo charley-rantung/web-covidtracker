@@ -1,18 +1,19 @@
-.Container {
+.ContainerIndo {
     display: flex;
+    padding-top: 40px;
 }
 
 .reportIndo {
     display: flex;
     height: 730px;
     width: 100%;
-    background-image: url('../../assets/indonesiamap.png');
+    background-image: url('../../assets/indonesiamap2.png');
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.cards {
+.cardsIndo {
     display: flex;
     margin-left: 20px;
     margin-top: 30px;

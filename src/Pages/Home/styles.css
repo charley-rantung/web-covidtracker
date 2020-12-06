@@ -1,13 +1,12 @@
-.Container {
+.ContainerHome {
     display: flex;
     justify-content: center;
 }
 
-.bg {
+.bgHome {
     display: flex;
     height: 732px;
     width: 100%;
-    background-color: #e5e5e5;
-    background-repeat: no-repeat;
     justify-content: center;
+    
 }

@@ -15,20 +15,20 @@ const Provinsi = () => {
 
     }, [])
     return (
-        <div className="container">
+        <div className="ContainerProvinsi">
             {
                 data.map((items) => {
                     return(
                         <div className="cardProvinsi">
                             <p style={{fontSize: 15, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
                             <div className="cardContainer">
-                                <div className="cardChild" style={{backgroundColor: '#f9d000'}}>
+                                <div className="cardChild" style={{backgroundColor: '#fccd14'}}>
                                     <p>Confirmed<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>
                                 </div>
-                                <div className="cardChild" style={{backgroundColor: '#00f48e'}}>
+                                <div className="cardChild" style={{backgroundColor: '#04704c'}}>
                                     <p>Recovered<br /><NumberFormat value={items.kasusSemb} displayType={'text'} thousandSeparator={true}/></p>
                                 </div>
-                                <div className="cardChild" style={{backgroundColor: '#ff5b42'}}>
+                                <div className="cardChild" style={{backgroundColor: '#5e0007'}}>
                                     <p>Deaths<br /><NumberFormat value={items.kasusMeni} displayType={'text'} thousandSeparator={true}/></p>
                                 </div>
                             </div>

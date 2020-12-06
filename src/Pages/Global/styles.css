@@ -1,18 +1,19 @@
-.Container {
+.ContainerGlobal {
     display: flex;
+    padding-top: 40px;
 }
 
-.report {
+.reportGlobal {
     display: flex;
     height: 730px;
     width: 100%;
-    background-image: url('../../assets/globalmap.png');
+    background-image: url('../../assets/globalmap2.png');
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.cards {
+.cardsGlobal {
     display: flex;
     margin-left: 20px;
     margin-top: 30px;

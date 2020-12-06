@@ -1,11 +1,12 @@
 import React from 'react'
 import './styles.css'
+import splash from '../../../src/assets/splash.png';
 
 const Home = () => {
     return (
-        <div className='Container'>
-            <div className='bg'>
-                <p>HOME</p>
+        <div className='ContainerHome'>
+            <div className='bgHome'>
+                <img src={splash} alt="Splash"/>
             </div>
         </div>
     )

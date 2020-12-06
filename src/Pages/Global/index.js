@@ -23,18 +23,18 @@ const Global = () => {
     }, [])
 
     return (
-        <div>
-            <div className='report'>
-                <div className='cards' style={{backgroundColor: '#f9d000'}}>
-                    <p>Confirmed</p>
+        <div className="ContainerGlobal">
+            <div className='reportGlobal'>
+                <div className='cardsGlobal' style={{backgroundColor: '#fccd14'}}>
+                    <p style={{fontSize: 15, fontWeight: 'bold'}}>Confirmed</p>
                     <p><NumberFormat value={confirmed} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
-                <div className='cards' style={{backgroundColor: '#00f48e'}}>
-                    <p>Recovered</p>
+                <div className='cardsGlobal' style={{backgroundColor: '#04704c'}}>
+                    <p style={{fontSize: 15, fontWeight: 'bold'}}>Recovered</p>
                     <p><NumberFormat value={recovered} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
-                <div className='cards' style={{backgroundColor: '#ff5b42'}}>
-                    <p>Deaths</p>
+                <div className='cardsGlobal' style={{backgroundColor: '#5e0007'}}>
+                    <p style={{fontSize: 15, fontWeight: 'bold'}}>Deaths</p>
                     <p><NumberFormat value={deaths} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
             </div>
