@@ -38,7 +38,6 @@ const Global = () => {
                     <p><NumberFormat value={deaths} displayType={'text'} thousandSeparator={true}/></p>
                 </div>
             </div>
-            <p>GLOBAL</p>
         </div>
     )
 }

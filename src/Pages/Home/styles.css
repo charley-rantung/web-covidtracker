@@ -5,9 +5,9 @@
 
 .bg {
     display: flex;
-    height: 1024px;
+    height: 732px;
     width: 100%;
-    background-image: url('../../assets/globalmap.png');
+    background-color: #e5e5e5;
     background-repeat: no-repeat;
     justify-content: center;
 }

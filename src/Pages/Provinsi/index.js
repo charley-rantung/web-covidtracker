@@ -20,7 +20,7 @@ const Provinsi = () => {
                 data.map((items) => {
                     return(
                         <div className="cardProvinsi">
-                            <p style={{fontSize: 20, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
+                            <p style={{fontSize: 15, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
                             <div className="cardContainer">
                                 <div className="cardChild" style={{backgroundColor: '#f9d000'}}>
                                     <p>Confirmed<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom'
 import { Global, Home, Indonesia, Provinsi } from './Pages';
 
 
@@ -10,10 +10,10 @@ const App = () => {
       <div>
         <nav>
           <ul>
-            <li><Link to="/"> Home </Link></li>
-            <li><Link to="/global"> Global </Link></li>
-            <li><Link to="/indonesia"> Indonesia </Link></li>
-            <li><Link to="/provinsi"> Provinsi </Link></li>
+            <li><NavLink to="/" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}}> Home </NavLink></li>
+            <li><NavLink to="/global" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#4CAf50"}}> Global </NavLink></li>
+            <li><NavLink to="/indonesia" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#4CAf50"}}> Indonesia </NavLink></li>
+            <li><NavLink to="/provinsi" style={{color: "#e5e5e5", float: "left", display: "block", textAlign: "center", textDecoration: "none", padding: 14}} activeStyle={{fontWeight: "bold", backgroundColor: "#4CAf50"}}> Provinsi </NavLink></li>
           </ul>
         </nav>
         <Switch>
