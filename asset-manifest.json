@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/covid-tracker-web/static/css/main.05590be6.chunk.css",
+    "main.css": "/covid-tracker-web/static/css/main.ebe53b64.chunk.css",
     "main.js": "/covid-tracker-web/static/js/main.b772d362.chunk.js",
     "main.js.map": "/covid-tracker-web/static/js/main.b772d362.chunk.js.map",
     "runtime-main.js": "/covid-tracker-web/static/js/runtime-main.6e85a29c.js",
@@ -10,7 +10,7 @@
     "static/js/3.6821b81b.chunk.js": "/covid-tracker-web/static/js/3.6821b81b.chunk.js",
     "static/js/3.6821b81b.chunk.js.map": "/covid-tracker-web/static/js/3.6821b81b.chunk.js.map",
     "index.html": "/covid-tracker-web/index.html",
-    "static/css/main.05590be6.chunk.css.map": "/covid-tracker-web/static/css/main.05590be6.chunk.css.map",
+    "static/css/main.ebe53b64.chunk.css.map": "/covid-tracker-web/static/css/main.ebe53b64.chunk.css.map",
     "static/js/2.454cb870.chunk.js.LICENSE.txt": "/covid-tracker-web/static/js/2.454cb870.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/covid-tracker-web/static/media/indonesiamap2.508c5ea6.png",
     "static/media/splash.c1af9e65.png": "/covid-tracker-web/static/media/splash.c1af9e65.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.6e85a29c.js",
     "static/js/2.454cb870.chunk.js",
-    "static/css/main.05590be6.chunk.css",
+    "static/css/main.ebe53b64.chunk.css",
     "static/js/main.b772d362.chunk.js"
   ]
 }
