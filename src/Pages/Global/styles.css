@@ -5,18 +5,20 @@
 
 .reportGlobal {
     display: flex;
-    height: 730px;
+    flex: 1;
+    height: 100%;
     width: 100%;
     background-image: url('../../assets/globalmap2.png');
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: flex-end;
+    background-size: contain;
 }
 
 .cardsGlobal {
     display: flex;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-bottom: 30px;
     width: 173px;
     height: 160px;
     align-items: center;

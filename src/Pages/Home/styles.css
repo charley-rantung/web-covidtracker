@@ -5,12 +5,12 @@
 
 .bgHome {
     display: flex;
-    height: 732px;
-    width: 100%;
     justify-content: center;
-    
+    background-size: contain;
+
 }
 
 .bgHome img {
     width: 600px;
+    background-size: contain;
 }

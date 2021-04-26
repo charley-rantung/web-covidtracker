@@ -18,22 +18,29 @@ const Provinsi = () => {
         <div className="ContainerProvinsi">
             {
                 data.map((items) => {
-                    return(
-                        <div className="cardProvinsi">
-                            <p style={{fontSize: 15, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
-                            <div className="cardContainer">
-                                <div className="cardChild" style={{backgroundColor: '#fccd14'}}>
-                                    <p>Confirmed<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>
-                                </div>
-                                <div className="cardChild" style={{backgroundColor: '#04704c'}}>
-                                    <p>Recovered<br /><NumberFormat value={items.kasusSemb} displayType={'text'} thousandSeparator={true}/></p>
-                                </div>
-                                <div className="cardChild" style={{backgroundColor: '#5e0007'}}>
-                                    <p>Deaths<br /><NumberFormat value={items.kasusMeni} displayType={'text'} thousandSeparator={true}/></p>
+                    if(items.provinsi.includes('Indonesia')){
+                        return (
+                            <div></div>
+                        )
+                    }
+                    else{
+                        return(
+                            <div className="cardProvinsi">
+                                <p style={{fontSize: 15, fontWeight: 'bold'}}>&emsp;&nbsp;{items.provinsi}</p>
+                                <div className="cardContainer">
+                                    <div className="cardChild" style={{backgroundColor: '#fccd14'}}>
+                                        <p>Confirmed<br /><NumberFormat value={items.kasusPosi} displayType={'text'} thousandSeparator={true}/></p>
+                                    </div>
+                                    <div className="cardChild" style={{backgroundColor: '#04704c'}}>
+                                        <p>Recovered<br /><NumberFormat value={items.kasusSemb} displayType={'text'} thousandSeparator={true}/></p>
+                                    </div>
+                                    <div className="cardChild" style={{backgroundColor: '#5e0007'}}>
+                                        <p>Deaths<br /><NumberFormat value={items.kasusMeni} displayType={'text'} thousandSeparator={true}/></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                )
+                    )
+                    }
                 })
             }
         </div>
