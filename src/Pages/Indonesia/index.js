@@ -11,11 +11,11 @@ const Indonesia = () => {
 
     useEffect(() => {
         axios
-        .get("https://indonesia-covid-19.mathdro.id/api")
+        .get("https://covid19.mathdro.id/api/countries/indonesia")
         .then((response) => {
-            setConfirmed(response.data.jumlahKasus);
-            setRecovered(response.data.sembuh);
-            setDeaths(response.data.meninggal);
+            setConfirmed(response.data.confirmed.value);
+            setRecovered(response.data.recovered.value);
+            setDeaths(response.data.deaths.value);
         });
 
     }, [])
